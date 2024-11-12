@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="documentation.css">
+</head>
+<body>
+    <div class="menu">
+        <h2>Topics</h2>
+        <ul>
+            <li onclick="loadContent('topic1')">Introduction</li>
+            <li onclick="loadContent('topic2')">Installation</li>
+            <li onclick="loadContent('topic3')">Configuration</li>
+            <li onclick="loadContent('topic4')">Usage</li>
+            <li onclick="loadContent('topic5')">Advanced Topics</li>
+            <li onclick="loadContent('topic6')">Troubleshooting</li>
+        </ul>
+    </div>
+    <div class="content" id="content">
+        <h2>Welcome</h2>
+        <p>Select a topic from the menu to load the content.</p>
+    </div>
+    <script src="doc.js"></script>
+</body>
+</html>
